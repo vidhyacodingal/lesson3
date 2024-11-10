@@ -1,0 +1,21 @@
+name = "cinu"
+age = 7
+weight = 20.5
+is_student = True
+print("Name :", name)
+print("type of name is ", type(name))
+print("Age :", age)
+print("type of age is ", type(age))
+print("Weight :", weight)
+print("type of weight is ", type(weight))
+print("Student :", is_student)
+print("type of studente is ", type(is_student))
+
+#type casting to covert the data types
+print("\n After type casting")
+age = str(age)
+weight = int(weight)
+print(age)
+print("type of age is ", type(age))
+print(weight)
+print("type of weight is ", type(weight))
